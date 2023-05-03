@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'GilroyLight';
+  src: url('/fonts/Gilroy-Light.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'GilroyExtraBold';
+  src: url('/fonts/Gilroy-ExtraBold.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'GilroyMedium';
+  src: url('/fonts/Gilroy-Medium.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'GilroySemiBold';
+  src: url('/fonts/Gilroy-SemiBold.otf') format('woff');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'GilroyMedium';
+}
+
+*:focus-visible {
+  outline-color: #8a9ef5;
+}
